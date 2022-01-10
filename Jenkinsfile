@@ -14,7 +14,7 @@ pipeline{
                 // echo "running artisans and composer clear"         
                 // sh 'php artisan optimize:clear'
                 // sh 'php artisan config:cache'
-                // sh 'composer dump-autoload'
+                sh 'composer dump-autoload'
                 // sh 'composer clear-cache'
                 // sh 'php artisan key:generate'
                 // sh 'php artisan migrate'
