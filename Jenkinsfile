@@ -18,7 +18,7 @@ pipeline{
                 // sh 'composer clear-cache'
                 // sh 'php artisan key:generate'
                 // sh 'php artisan migrate'
-                sh './vendor/bin/sail up'
+                sh 'php artisan serve'
             }
         }                
     }
